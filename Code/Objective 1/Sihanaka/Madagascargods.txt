@@ -1,0 +1,128 @@
+SITE	RESEARCHER	Assistant	ID	GODSPIRIT	GODSPIRIT.C	ORDERG
+Ambohimahavelona	Anders Norge	Fara	13	Andriamandazoala	Andriamandazoala	3
+Anororo	Anders Norge	Fara	3	 Andriamanitra (God)	Andriamanitra	3
+North Anororo	Anders Norge	Fara	17	Andriamanitra mpivavaka (bible's God)	Andriamanitra	3
+Tsaraseranana Anororo	Anders Norge	Fara	20	Andriamanitra mpivavaka (God of the believers)	Andriamanitra	1
+Tanambao II Anororo	Anders Norge	Fara	21	Jesosy sy Andriamanitra	Andriamanitra	4
+Anororo	Anders Norge	Fara	26	Andriamanitra	Andriamanitra	3
+North Anororo	Anders Norge	Fara	28	Andriamanitra(God)	Andriamanitra	1
+Tanambao I Anororo	Anders Norge	Fara	39	Andriamanitra	Andriamanitra	3
+TanambaoI Anororo	Anders Norge	Fara	40	Andriamanitra	Andriamanitra	5
+Anororo	Anders Norge	Fara	2	Andriatsimitoviaminandriana	Andriat.	1
+Anororo	Anders Norge	Fara	5	Andriatsimitoviaminandriana	Andriat.	2
+Anororo	Anders Norge	Fara	9	Andriatsimitovy	Andriat.	4
+Anororo	Anders Norge	Fara	10	Andriatsimitoviaminandriana	Andriat.	2
+Anororo	Anders Norge	Fara	11	Andriatsimitoviaminandriana	Andriat.	2
+Ambohimahavelona	Anders Norge	Fara	13	Andriatsimitoviaminandriana	Andriat.	5
+Ambohimahavelona	Anders Norge	Fara	14	Andriatsimitoviaminandriana	Andriat.	5
+Tsaraseranana Anororo	Anders Norge	Fara	16	Andriatsimitoviaminandriana	Andriat.	2
+North Anororo	Anders Norge	Fara	17	Andriatsimitoviaminandriana	Andriat.	2
+Tanambao II Anororo	Anders Norge	Fara	21	Andriatsimitoviaminandriana	Andriat.	1
+Tsaraseranana Anororo	Anders Norge	Fara	22	Andriatsimitoviaminandriana	Andriat.	1
+Anororo	Anders Norge	Fara	26	Andriatsimitoviaminandriana	Andriat.	1
+Anororo	Anders Norge	Fara	27	Andriatsimitoviaminandriana	Andriat.	3
+North Anororo	Anders Norge	Fara	28	Andriatsimitoviaminandriana	Andriat.	2
+Tanambao II Anororo	Anders Norge	Fara	29	Andriatsimitoviaminandriana	Andriat.	5
+Anororo	Anders Norge	Fara	34	Andriatsimitoviaminandriana	Andriat.	1
+TanambaoII Anororo	Anders Norge	Fara	35	Andriatsimitoviaminandriana	Andriat.	3
+TanambaoII Anororo	Anders Norge	Fara	37	Andriatsimitoviaminandriana	Andriat.	3
+TanambaoII Anororo	Anders Norge	Fara	38	Andriatsimitoviaminandriana	Andriat.	2
+TanambaoI Anororo	Anders Norge	Fara	40	Andriatsimitoviaminandriana	Andriat.	1
+Tsaraseranana Anororo	Anders Norge	Fara	23	Bemahasoa	Bemahasoa	1
+Tanambao II Anororo	Anders Norge	Fara	29	dadilahy Ndrenandro	dadilahy Ndrenandro	2
+Anororo	Anders Norge	Fara	4	debadeba	debadeba	5
+TanambaoII Anororo	Anders Norge	Fara	37	Elohim	Elohim	1
+Anororo	Anders Norge	Fara	3	fanahy ratsy sy tsara (bad and good spirit)	fanahy ratsy sy tsara (bad and good spirit)	1
+Ambohimahavelona	Anders Norge	Fara	12	Georges	Georges	4
+Ambohimahavelona	Anders Norge	Fara	12	Ivonne	Ivonne	3
+Tsaraseranana Anororo	Anders Norge	Fara	31	Jalousie	Jalousie	3
+Tsaraseranana Anororo	Anders Norge	Fara	20	Jesosy	Jesus	2
+Tanambao II Anororo	Anders Norge	Fara	21	Jesosy sy Andriamanitra	Jesus	3
+Anororo	Anders Norge	Fara	3	Kalanoro	Kalanoro	4
+Anororo	Anders Norge	Fara	4	kalanoro	Kalanoro	3
+Tsaraseranana Anororo	Anders Norge	Fara	30	Kalanoro	Kalanoro	2
+Tsaraseranana Anororo	Anders Norge	Fara	22	Kalanoro (Liza)	Kalanoro	3
+Tsaraseranana Anororo	Anders Norge	Fara	16	Kotonarivo	Kotonarivo	4
+Tsaraseranana Anororo	Anders Norge	Fara	31	Kotovelona	Kotovelona	1
+Tsaraseranana Anororo	Anders Norge	Fara	18	Lemaditra	Lemaditra	2
+Tsaraseranana Anororo	Anders Norge	Fara	22	Lemaditra	Lemaditra	5
+Anororo	Anders Norge	Fara	1	Liza	Liza	1
+Ambohimahavelona	Anders Norge	Fara	12	Liza	Liza	2
+Anororo	Anders Norge	Fara	2	Mahatolotrarivo	Mahatolotrarivo	3
+Anororo	Anders Norge	Fara	6	Mahatolotrarivo	Mahatolotrarivo	5
+Anororo	Anders Norge	Fara	11	Mahatolotrarivo	Mahatolotrarivo	3
+Ambohimahavelona	Anders Norge	Fara	13	Mahatolotrarivo	Mahatolotrarivo	4
+Ambohimahavelona	Anders Norge	Fara	14	Mahatolotrarivo	Mahatolotrarivo	2
+Tsaraseranana Anororo	Anders Norge	Fara	22	Mahatolotrarivo	Mahatolotrarivo	2
+North Anororo	Anders Norge	Fara	28	Mahatolotrarivo	Mahatolotrarivo	3
+Tanambao II Anororo	Anders Norge	Fara	29	Mahatolotrarivo	Mahatolotrarivo	4
+TanambaoII Anororo	Anders Norge	Fara	35	Mahatolotrarivo	Mahatolotrarivo	2
+TanambaoII Anororo	Anders Norge	Fara	38	Mahatolotrarivo	Mahatolotrarivo	3
+TanambaoI Anororo	Anders Norge	Fara	40	Mahatolotrarivo	Mahatolotrarivo	2
+Anororo	Anders Norge	Fara	1	Ndremasina	Ndremasina	2
+Anororo	Anders Norge	Fara	6	Ndrembavy	Ndrembavy	4
+Anororo	Anders Norge	Fara	8	Ndrembavy	Ndrembavy	4
+Tsaraseranana Anororo	Anders Norge	Fara	16	Ndrembelala	Ndrembelala	3
+TanambaoII Anororo	Anders Norge	Fara	33	Ndremiarina	Ndremiarina	1
+Ambohimahavelona	Anders Norge	Fara	12	Ndremisara	Ndremisara	1
+Tsaraseranana Anororo	Anders Norge	Fara	16	Ndremisara	Ndremisara	1
+Tanambao I Anororo	Anders Norge	Fara	32	Ndremisara	Ndremisara	3
+TanambaoII Anororo	Anders Norge	Fara	33	Ndremisararivo	Ndremisararivo	2
+Anororo	Anders Norge	Fara	27	Ndrenarivo	Ndrenarivo	2
+Anororo	Anders Norge	Fara	6	Ndrentomponiolona	Ndrentomponiolona	3
+Anororo	Anders Norge	Fara	8	Ndrentomponiolona	Ndrentomponiolona	2
+Anororo	Anders Norge	Fara	34	Ndretsoafana	Ndretsoafana	2
+Anororo	Anders Norge	Fara	5	Ndrianampanjaka	Ndriana.	1
+Anororo	Anders Norge	Fara	6	Ndrianampanjaka	Ndriana.	1
+Anororo	Anders Norge	Fara	8	Ndrianampanjaka	Ndriana.	1
+Anororo	Anders Norge	Fara	9	Ndrianampanjaka	Ndriana.	2
+Anororo	Anders Norge	Fara	10	Ndrianampanjaka	Ndriana.	1
+Anororo	Anders Norge	Fara	11	Ndrianampanjaka	Ndriana.	1
+Ambohimahavelona	Anders Norge	Fara	13	Ndrianampanjaka	Ndriana.	2
+Ambohimahavelona	Anders Norge	Fara	14	Ndrianampanjaka	Ndriana.	1
+North Anororo	Anders Norge	Fara	17	Ndrianampanjaka	Ndriana.	1
+Tsaraseranana Anororo	Anders Norge	Fara	18	Ndrianampanjaka	Ndriana.	1
+Anororo	Anders Norge	Fara	19	Ndrianampanjaka	Ndriana.	1
+Tanambao II Anororo	Anders Norge	Fara	21	Ndrianampanjaka	Ndriana.	2
+Tanambao II Anororo	Anders Norge	Fara	29	Ndrianampanjaka	Ndriana.	3
+Tanambao I Anororo	Anders Norge	Fara	32	Ndrianampanjaka	Ndriana.	1
+TanambaoII Anororo	Anders Norge	Fara	35	Ndrianampanjaka	Ndriana.	1
+TanambaoII Anororo	Anders Norge	Fara	37	Ndrianampanjaka	Ndriana.	2
+Tanambao I Anororo	Anders Norge	Fara	38	Ndrianampanjaka	Ndriana.	1
+Tanambao I Anororo	Anders Norge	Fara	39	Ndrianampanjaka	Ndriana.	1
+TanambaoI Anororo	Anders Norge	Fara	40	Ndrianampanjaka	Ndriana.	3
+Anororo	Anders Norge	Fara	9	Ndrianatao	Ndrianatao	3
+Tanambao I Anororo	Anders Norge	Fara	32	Njatsy	Njatsy	2
+Anororo	Anders Norge	Fara	9	Rafotsibemanantena	Rafotsibemanantena	5
+Anororo	Anders Norge	Fara	8	Rainindraimbavy	Rainindraimbavy	3
+Anororo	Anders Norge	Fara	2	Randriamihaingo	Randriamihaingo	4
+Anororo center	Anders Norge	Fara	15	Razafy	Razafy	2
+Anororo	Anders Norge	Fara	3	razana taloha (ancestors)	razana	2
+Anororo	Anders Norge	Fara	4	razana (ancestors)	razana	2
+Ambohimahavelona	Anders Norge	Fara	13	Fanahy razana	razana	1
+Anororo	Anders Norge	Fara	26	Fanahin'ny razana (ancestor's spirit)	razana	2
+Tanambao I Anororo	Anders Norge	Fara	39	Razana	razana	2
+TanambaoI Anororo	Anders Norge	Fara	40	Razana	razana	4
+Anororo	Anders Norge	Fara	2	Salovambolo	Salovambolo	2
+Anororo	Anders Norge	Fara	6	Salovambolo	Salovambolo	2
+Anororo	Anders Norge	Fara	8	Salovambolo	Salovambolo	5
+Anororo	Anders Norge	Fara	9	Salovambolo	Salovambolo	1
+Anororo	Anders Norge	Fara	10	Salovambolo	Salovambolo	3
+Anororo	Anders Norge	Fara	11	Salovambolo	Salovambolo	4
+Ambohimahavelona	Anders Norge	Fara	14	Salovambolo	Salovambolo	3
+TanambaoII Anororo	Anders Norge	Fara	35	Salovambolo	Salovambolo	4
+Anororo center	Anders Norge	Fara	15	Tsierena	Tsierena	3
+Tsaraseranana Anororo	Anders Norge	Fara	16	Velomahatody	Velomahatody	5
+Ambohimahavelona	Anders Norge	Fara	14	Zakamiarina	Zakamiarina	4
+Tanambao II Anororo	Anders Norge	Fara	24	Zanaharin'i Ivonne (Ivonne'spirit)	Zanahary 	1
+Anororo center	Anders Norge	Fara	15	Zanaharin'i Liza	Zanahary 	1
+Anororo	Anders Norge	Fara	7	Zanahary 	Zanahary 	1
+Anororo	Anders Norge	Fara	4	Zanahary (possessed people)	Zanahary 	1
+Anororo	Anders Norge	Fara	3	Zazavavindrano (siren)	zazavavin.	5
+Anororo	Anders Norge	Fara	4	Zazavavindrano (siren)	zazavavin.	4
+Tsaraseranana Anororo	Anders Norge	Fara	22	Zazavavindrano (Liza)	zazavavin.	4
+Anororo	Anders Norge	Fara	27	Volanoro	zazavavin.	1
+Tanambao II Anororo	Anders Norge	Fara	29	Volanoro	zazavavin.	1
+Tsaraseranana Anororo	Anders Norge	Fara	30	Volanoro	zazavavin.	1
+Tsaraseranana Anororo	Anders Norge	Fara	31	zazavavindrano	zazavavin.	2
+Anororo	Anders Norge	Fara	36	zazavavindrano	zazavavin.	1
