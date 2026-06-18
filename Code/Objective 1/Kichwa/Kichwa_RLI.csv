@@ -1,0 +1,80 @@
+ID,GOD,ORDERGOD,RANKGOD,CONCERN,SEE,PUNISH,REWARD
+A2,God the Father,1,1,1,1,1,1
+A2,Pachamama,2,2,1,1,1,1
+A2,NA,NA,NA,NA,NA,NA,NA
+A2,NA,NA,NA,NA,NA,NA,NA
+A3,Pachamama,1,3,1,1,0,1
+A3,Jesus Christ,2,2,1,1,1,1
+A3,Virgin of Quinche,3,1,1,1,1,1
+A3,Yacha (spirit of shamans and nature; spirit that enters the shaman),4,4,1,1,1,1
+A3,NA,NA,NA,NA,NA,NA,NA
+A4,God the Father,1,1,1,1,1,1
+A4,Yacha,2,2,1,1,1,1
+A4,Pachamama,3,3,1,0,1,1
+A4,The Virgin,4,4,0,1,0,0
+A5,Spirit of nature (Pachamama) which leads people through shamans,1,3,1,0,1,1
+A5,God (Christian),2,1,1,1,0,1
+A5,Virgin Mary,3,2,1,NA,0,1
+A6,Jungle spirit,1,2,1,1,1,1
+A6,River spirit,2,3,1,1,1,1
+A6,Water spirit,3,4,1,1,1,0
+A6,Animal spirit,4,5,1,1,1,0
+A6,God,5,1,1,1,1,1
+A7,Shamanism,1,NA,NA,NA,NA,NA
+A7,Pachamama,2,1,1,0,1,0
+A7,Forest spirits,3,NA,NA,NA,NA,NA
+A8,God the Father,1,1,1,1,0,1
+A8,NA,NA,NA,NA,NA,NA,NA
+A8,NA,NA,NA,NA,NA,NA,NA
+A8,NA,NA,NA,NA,NA,NA,NA
+A9,God the Father,1,1,1,1,1,1
+A9,Spirit of Nature,2,2,1,1,1,1
+A9,NA,NA,NA,NA,NA,NA,NA
+A9,NA,NA,NA,NA,NA,NA,NA
+A11,God the Father,1,1,1,1,1,1
+A11,The Divine Child,2,2,1,1,0,1
+A11,Sacred Mountain (Yawari),3,3,1,0,1,1
+A12,God (Catholic),1,1,1,1,1,1
+A12,The Virgin,2,2,1,NA,0,1
+A12,Holy Child,3,3,1,1,1,1
+A12,NA,NA,NA,NA,NA,NA,NA
+A12,NA,NA,NA,NA,NA,NA,NA
+A13,God the Father,1,1,1,1,1,1
+A13,Pachamama,2,2,1,0,1,1
+A13,The Sun (ancient),3,3,NA,NA,NA,NA
+A13,NA,NA,NA,NA,NA,NA,NA
+A14,Jesus Christ,1,2,1,1,0,1
+A14,Pachamama,2,1,1,1,0,1
+A14,NA,NA,NA,NA,NA,NA,NA
+A14,NA,NA,NA,NA,NA,NA,NA
+A14,NA,NA,NA,NA,NA,NA,NA
+A15,God the Father,1,1,1,1,0,1
+A15,Pachamama,2,2,1,1,0,1
+A15,NA,NA,NA,NA,NA,NA,NA
+A15,NA,NA,NA,NA,NA,NA,NA
+A16,God the Father,1,1,1,1,1,1
+A16,Yacha,2,2,1,1,1,1
+A16,NA,NA,NA,NA,NA,NA,NA
+A18,God the Father,1,1,1,1,1,1
+A18,Pachamama,2,2,1,1,1,1
+A19,Jesus Christ,1,1,1,1,0,1
+A19,Pachamama,2,2,1,1,1,1
+A22,The Virgin of the Swan,1,2,1,0,0,1
+A22,Jesus,2,3,1,0,1,1
+A22,Pachamama,3,1,1,0,0,1
+A22,NA,NA,NA,NA,NA,NA,NA
+A23,Trinity/God the Father,1,1,1,1,1,1
+A23,Pachamama,2,2,1,1,1,1
+A23,Wisdom (generational),3,3,1,1,1,1
+A23,Spirit of nature,4,4,1,1,1,1
+A23,NA,NA,NA,NA,NA,NA,NA
+A105,God the Father,1,2,1,1,1,1
+A105,Pachamama,2,1,1,1,1,1
+A105,NA,NA,NA,NA,NA,NA,NA
+A105,NA,NA,NA,NA,NA,NA,NA
+A105,NA,NA,NA,NA,NA,NA,NA
+A118,God,1,1,1,1,1,1
+A118,Angels,2,3,1,1,1,1
+A118,Divine spirit,3,2,1,1,1,1
+A118,The Divine Child,4,5,1,1,1,1
+A118,Virgin of Quinche,5,4,1,1,1,1
