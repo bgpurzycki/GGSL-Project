@@ -35,7 +35,7 @@ library(posterior)
 
 
 #####################################################################
-### Read in and process Altai Uriankhai data (note that this step processes the raw data which is not yet openly-available. To follow these analyses, read in the data on line 980)
+### Read in and process Altai Uriankhai data (note that this step processes the raw data which is not openly-available. To follow these analyses, read in the data on line 970)
 
 
 ## Demographics first
@@ -988,7 +988,7 @@ write_csv(altai_main, file = "altai_data.csv")
 cbind(n_miss = sapply(altai_main, function(x) sum(is.na(x))),
       per_miss = sapply(altai_main, function(x) round(sum(is.na(x)) / nrow(altai_main) * 100, 2)))
 
-# 47 cases with complete data (54.7%)
+# 48 cases with complete data (55.8%)
 sum(complete.cases(altai_main))
 round(sum(complete.cases(altai_main)) / nrow(altai_main) * 100, 1)
 
@@ -1001,7 +1001,7 @@ sum(complete.cases(temp))
 round(sum(complete.cases(temp)) / nrow(temp) * 100, 1)
 
 
-# 48 cases (55.8%) with complete data if exclude just Buddha vars
+# 49 cases (57.0%) with complete data if exclude just Buddha vars
 temp <- altai_main %>%
   select(-c(LGPERF, LGBLV, LGTHINK_BINARY, BGPERF, BGBLV, BGTHINK_BINARY))
 
@@ -1360,6 +1360,7 @@ mod_RAG.LvsS <- brm(RAG | trials(30) ~ Cond + (Cond | CERCID),
 summary(mod_RAG.LvsS)
 
 ## Difference between conditions on count scale, using 'marginaleffects' package
+set.seed(3)
 avg_comparisons(mod_RAG.LvsS, variables = "Cond", type = "prediction")
 
 
@@ -1434,6 +1435,7 @@ mod_DG.LvsS <- brm(DG ~ Cond + (Cond | CERCID),
 summary(mod_DG.LvsS)
 
 ## Difference between conditions on count scale, using 'marginaleffects' package
+set.seed(332)
 avg_comparisons(mod_DG.LvsS, variables = "Cond", type = "prediction")
 
 
@@ -1495,6 +1497,7 @@ loo_compare(loo_RAG.L, loo_RAG.L_int)
 
 
 ## G-computation (based on additive model)
+set.seed(1111)
 
 # Predict outcome where all supernatural belief variables are '0'
 df_sup0 <- as.data.frame(cbind(LGPUN_AVE = 0, LGOMNI_AVE = 0,
@@ -1574,6 +1577,7 @@ loo_compare(loo_RAG.S, loo_RAG.S_int)
 
 
 ## G-computation (based on additive model)
+set.seed(2222)
 
 # Predict outcome where all supernatural belief variables are '0'
 df_sup0 <- as.data.frame(cbind(LGPUN_AVE = 0, LGOMNI_AVE = 0,
@@ -1676,6 +1680,7 @@ loo_compare(loo_DG.L, loo_DG.L_int)
 
 
 ## G-computation (based on additive model)
+set.seed(3333)
 
 # Predict outcome where all supernatural belief variables are '0'
 df_sup0 <- as.data.frame(cbind(LGPUN_AVE = 0, LGOMNI_AVE = 0,
@@ -1772,6 +1777,7 @@ loo_compare(mod_DG.S, mod_DG.S_int)
 
 
 ## G-computation (based on additive model)
+set.seed(4444)
 
 # Predict outcome where all supernatural belief variables are '0'
 df_sup0 <- as.data.frame(cbind(LGPUN_AVE = 0, LGOMNI_AVE = 0,
@@ -1863,6 +1869,7 @@ summary(mod_RAG.L_sens1)
 
 
 ## G-computation
+set.seed(11111)
 
 # Predict outcome where all supernatural belief variables are '0'
 df_sup0 <- as.data.frame(cbind(LGPUN_AVE = 0, LGOMNI_AVE = 0,
@@ -1919,6 +1926,7 @@ summary(mod_RAG.S_sens1)
 
 
 ## G-computation
+set.seed(22222)
 
 # Predict outcome where all supernatural belief variables are '0'
 df_sup0 <- as.data.frame(cbind(LGPUN_AVE = 0, LGOMNI_AVE = 0,
@@ -1975,6 +1983,7 @@ summary(mod_DG.L_sens1)
 
 
 ## G-computation
+set.seed(33333)
 
 # Predict outcome where all supernatural belief variables are '0'
 df_sup0 <- as.data.frame(cbind(LGPUN_AVE = 0, LGOMNI_AVE = 0,
@@ -2045,6 +2054,7 @@ summary(mod_DG.S_sens1)
 
 
 ## G-computation
+set.seed(44444)
 
 # Predict outcome where all supernatural belief variables are '0'
 df_sup0 <- as.data.frame(cbind(LGPUN_AVE = 0, LGOMNI_AVE = 0,
@@ -2120,6 +2130,7 @@ summary(mod_RAG.L_sens2)
 
 
 ## G-computation
+set.seed(111111)
 
 # Predict outcome where all supernatural belief variables are '0'
 df_sup0 <- as.data.frame(cbind(LGPUNISH = 0, LGFEEL = 0,
@@ -2173,6 +2184,7 @@ summary(mod_RAG.S_sens2)
 
 
 ## G-computation
+set.seed(222222)
 
 # Predict outcome where all supernatural belief variables are '0'
 df_sup0 <- as.data.frame(cbind(LGPUNISH = 0, LGFEEL = 0,
@@ -2226,6 +2238,7 @@ summary(mod_DG.L_sens2)
 
 
 ## G-computation
+set.seed(333333)
 
 # Predict outcome where all supernatural belief variables are '0'
 df_sup0 <- as.data.frame(cbind(LGPUNISH = 0, LGFEEL = 0,
@@ -2293,6 +2306,7 @@ summary(mod_DG.S_sens2)
 
 
 ## G-computation
+set.seed(444444)
 
 # Predict outcome where all supernatural belief variables are '0'
 df_sup0 <- as.data.frame(cbind(LGPUNISH = 0, LGFEEL = 0,
@@ -2710,6 +2724,7 @@ mean(LOO_SE_diff)
 
 
 ## G-computation (based on additive model)
+set.seed(1212)
 
 ### Will have to loop over each imputed dataset and store contrasts, then combine together afterwards
 
@@ -2836,6 +2851,7 @@ mean(LOO_SE_diff)
 
 
 ## G-computation (based on additive model)
+set.seed(2323)
 
 ### Will have to loop over each imputed dataset and store contrasts, then combine together afterwards
 
@@ -2983,6 +2999,7 @@ mean(LOO_SE_diff)
 
 
 ## G-computation (based on additive model)
+set.seed(3434)
 
 ### Will have to loop over each imputed dataset and store contrasts, then combine together afterwards
 
@@ -3123,6 +3140,7 @@ mean(LOO_SE_diff)
 
 
 ## G-computation (based on additive model)
+set.seed(4545)
 
 ### Will have to loop over each imputed dataset and store contrasts, then combine together afterwards
 
@@ -3233,6 +3251,7 @@ combine_models(mlist = mod_RAG.L_sens1, check_data = FALSE)
 
 
 ## G-computation
+set.seed(2121)
 
 ### Will have to loop over each imputed dataset and store contrasts, then combine together afterwards
 
@@ -3306,6 +3325,7 @@ combine_models(mlist = mod_RAG.S_sens1, check_data = FALSE)
 
 
 ## G-computation
+set.seed(3232)
 
 ### Will have to loop over each imputed dataset and store contrasts, then combine together afterwards
 
@@ -3379,6 +3399,7 @@ combine_models(mlist = mod_DG.L_sens1, check_data = FALSE)
 
 
 ## G-computation
+set.seed(4343)
 
 ### Will have to loop over each imputed dataset and store contrasts, then combine together afterwards
 
@@ -3466,6 +3487,7 @@ combine_models(mlist = mod_DG.S_sens1, check_data = FALSE)
 
 
 ## G-computation
+set.seed(5454)
 
 ### Will have to loop over each imputed dataset and store contrasts, then combine together afterwards
 
@@ -3557,6 +3579,7 @@ combine_models(mlist = mod_RAG.L_sens2, check_data = FALSE)
 
 
 ## G-computation
+set.seed(1122)
 
 ### Will have to loop over each imputed dataset and store contrasts, then combine together afterwards
 
@@ -3629,6 +3652,7 @@ combine_models(mlist = mod_RAG.S_sens2, check_data = FALSE)
 
 
 ## G-computation
+set.seed(2233)
 
 ### Will have to loop over each imputed dataset and store contrasts, then combine together afterwards
 
@@ -3701,6 +3725,7 @@ combine_models(mlist = mod_DG.L_sens2, check_data = FALSE)
 
 
 ## G-computation
+set.seed(3344)
 
 ### Will have to loop over each imputed dataset and store contrasts, then combine together afterwards
 
@@ -3787,6 +3812,7 @@ combine_models(mlist = mod_DG.S_sens2, check_data = FALSE)
 
 
 ## G-computation
+set.seed(4455)
 
 ### Will have to loop over each imputed dataset and store contrasts, then combine together afterwards
 
