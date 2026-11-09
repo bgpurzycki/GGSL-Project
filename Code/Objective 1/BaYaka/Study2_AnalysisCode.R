@@ -550,6 +550,7 @@ mod_RAG.LvsS <- brm(RAG | trials(30) ~ Cond + (Cond | CERCID),
 summary(mod_RAG.LvsS)
 
 ## Difference between conditions on count scale, using 'marginaleffects' package
+set.seed(2)
 avg_comparisons(mod_RAG.LvsS, variables = "Cond", type = "prediction")
 
 
@@ -653,6 +654,7 @@ mod_DG.LvsS <- brm(DG ~ Cond + (Cond | CERCID),
 summary(mod_DG.LvsS)
 
 ## Difference between conditions on count scale, using 'marginaleffects' package
+set.seed(21)
 avg_comparisons(mod_DG.LvsS, variables = "Cond", type = "prediction")
 
 
@@ -900,6 +902,7 @@ loo_compare(loo_RAG.L, loo_RAG.L_int)
 
 
 ### G-computation (based on additive model)
+set.seed(12321)
 
 # Extract model coefficients
 (post_coefs <- as_draws_df(mod_RAG.L))
@@ -1266,6 +1269,7 @@ loo_compare(loo_RAG.S, loo_RAG.S_int)
 
 
 ### G-computation (based on additive model)
+set.seed(32123)
 
 # Extract model coefficients
 (post_coefs <- as_draws_df(mod_RAG.S))
@@ -1466,6 +1470,7 @@ loo_compare(loo_DG.L, loo_DG.L_int)
 
 
 ## G-computation (based on additive model)
+set.seed(65456)
 
 # Predict outcome where all supernatural belief variables are '0'
 df_sup0 <- as.data.frame(cbind(LGPUN_AVE = 0, LGOMNI_AVE = 0,
@@ -1564,6 +1569,7 @@ loo_compare(mod_DG.S, mod_DG.S_int)
 
 
 ## G-computation (based on additive model)
+set.seed(45654)
 
 # Predict outcome where all supernatural belief variables are '0'
 df_sup0 <- as.data.frame(cbind(LGPUN_AVE = 0, LGOMNI_AVE = 0,
