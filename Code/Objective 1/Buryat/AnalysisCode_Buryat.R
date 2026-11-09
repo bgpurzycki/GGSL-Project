@@ -128,7 +128,7 @@ glimpse(buryat_relig)
 
 # Remove some unnecessary, text, and/or empty variables
 buryat_relig <- buryat_relig %>%
-  select(-c(DATE, TIME, LOCATION, NAME, ...21, ...39, ...40, ...72, BGPUNHO, LGPUNHO, LGDIEHO, CORELSIM, OUTLIST)) %>%
+  select(-c(DATE, TIME, LOCATION, NAME, ...21, ...39, ...40, BGPUNHO, LGPUNHO, LGDIEHO, CORELSIM, OUTLIST)) %>%
   rename(CERCID = PARTID, INTERVIEWER_RELIG = INTERVIEWER)
 
 # Check the data and edit to match ERM names and coding
@@ -553,6 +553,7 @@ mod_DG.LvsS <- brm(DG ~ Cond + (Cond | CERCID),
 summary(mod_DG.LvsS)
 
 ## Difference between conditions on count scale, using 'marginaleffects' package
+set.seed(1)
 avg_comparisons(mod_DG.LvsS, variables = "Cond", type = "prediction")
 
 
@@ -616,6 +617,7 @@ loo_compare(loo_RAG.L, loo_RAG.L_int)
 
 
 ## G-computation (based on additive model)
+set.seed(123)
 
 # Predict outcome where all supernatural belief variables are '0'
 df_sup0 <- as.data.frame(cbind(LGPUN_AVE = 0, LGOMNI_AVE = 0,
@@ -652,6 +654,7 @@ quantile(RAG.L_1, c(0.025, 0.5, 0.975))
 
 
 ## G-computation (based on interaction model)
+set.seed(321)
 
 # Predict outcome where all supernatural belief variables are '0'
 df_sup0 <- as.data.frame(cbind(LGPUN_AVE = 0, LGOMNI_AVE = 0,
@@ -733,6 +736,7 @@ loo_compare(loo_RAG.S, loo_RAG.S_int)
 
 
 ## G-computation (based on additive model)
+set.seed(112)
 
 # Predict outcome where all supernatural belief variables are '0'
 df_sup0 <- as.data.frame(cbind(LGPUN_AVE = 0, LGOMNI_AVE = 0,
@@ -835,6 +839,7 @@ loo_compare(loo_DG.L, loo_DG.L_int)
 
 
 ## G-computation (based on additive model)
+set.seed(221)
 
 # Predict outcome where all supernatural belief variables are '0'
 df_sup0 <- as.data.frame(cbind(LGPUN_AVE = 0, LGOMNI_AVE = 0,
@@ -927,6 +932,7 @@ loo_compare(mod_DG.S, mod_DG.S_int)
 
 
 ## G-computation (based on additive model)
+set.seed(222)
 
 # Predict outcome where all supernatural belief variables are '0'
 df_sup0 <- as.data.frame(cbind(LGPUN_AVE = 0, LGOMNI_AVE = 0,
@@ -997,7 +1003,6 @@ dev.off()
 
 ## As little evidence of multiplicative effect between exposures, will just focus on additive models here
 
-
 ### RAG - DISTANT vs LOCAL
 mod_RAG.L_sens1 <- brm(COREL.L | trials(30) ~ LGPUN_AVE + LGOMNI_AVE +
                          BGPUN_AVE + BGOMNI_AVE +
@@ -1014,6 +1019,7 @@ summary(mod_RAG.L_sens1)
 
 
 ## G-computation
+set.seed(900)
 
 # Predict outcome where all supernatural belief variables are '0'
 df_sup0 <- as.data.frame(cbind(LGPUN_AVE = 0, LGOMNI_AVE = 0,
@@ -1070,6 +1076,7 @@ summary(mod_RAG.S_sens1)
 
 
 ## G-computation
+set.seed(905)
 
 # Predict outcome where all supernatural belief variables are '0'
 df_sup0 <- as.data.frame(cbind(LGPUN_AVE = 0, LGOMNI_AVE = 0,
@@ -1126,6 +1133,7 @@ summary(mod_DG.L_sens1)
 
 
 ## G-computation
+set.seed(911)
 
 # Predict outcome where all supernatural belief variables are '0'
 df_sup0 <- as.data.frame(cbind(LGPUN_AVE = 0, LGOMNI_AVE = 0,
@@ -1192,6 +1200,7 @@ summary(mod_DG.S_sens1)
 
 
 ## G-computation
+set.seed(915)
 
 # Predict outcome where all supernatural belief variables are '0'
 df_sup0 <- as.data.frame(cbind(LGPUN_AVE = 0, LGOMNI_AVE = 0,
@@ -1247,7 +1256,6 @@ quantile(diff_DG.S, c(0.025, 0.5, 0.975))
 
 ## As little evidence of multiplicative effect between exposures, will just focus on additive models here
 
-
 ### RAG - DISTANT vs LOCAL
 mod_RAG.L_sens2 <- brm(COREL.L | trials(30) ~ LGPUNISH + LGFEEL +
                          AGE + SEX + FORMALED + MMAT + CHILDREN +
@@ -1263,6 +1271,7 @@ summary(mod_RAG.L_sens2)
 
 
 ## G-computation
+set.seed(777)
 
 # Predict outcome where all supernatural belief variables are '0'
 df_sup0 <- as.data.frame(cbind(LGPUNISH = 0, LGFEEL = 0,
@@ -1316,6 +1325,7 @@ summary(mod_RAG.S_sens2)
 
 
 ## G-computation
+set.seed(666)
 
 # Predict outcome where all supernatural belief variables are '0'
 df_sup0 <- as.data.frame(cbind(LGPUNISH = 0, LGFEEL = 0,
@@ -1369,6 +1379,7 @@ summary(mod_DG.L_sens2)
 
 
 ## G-computation
+set.seed(555)
 
 # Predict outcome where all supernatural belief variables are '0'
 df_sup0 <- as.data.frame(cbind(LGPUNISH = 0, LGFEEL = 0,
@@ -1432,6 +1443,7 @@ summary(mod_DG.S_sens2)
 
 
 ## G-computation
+set.seed(444)
 
 # Predict outcome where all supernatural belief variables are '0'
 df_sup0 <- as.data.frame(cbind(LGPUNISH = 0, LGFEEL = 0,
