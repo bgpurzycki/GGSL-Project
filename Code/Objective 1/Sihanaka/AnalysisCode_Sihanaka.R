@@ -7,7 +7,8 @@
 rm(list=ls())
 Sys.setenv(LANG = "en")
 
-setwd("")
+setwd("C:/Users/au776065/Dropbox/Major-Smith-Purzycki Shared/Projects/Anders_Madagascar/Objective 1 - Sihanaka/")
+#setwd("")
 
 
 #install.packages("tidyverse")
@@ -48,7 +49,7 @@ library(ggdist)
 ### Read in and process Sihanaka data (note that this step processes the raw data which is not openly-available. To follow these analyses, read in the data on line 280)
 
 ## Demographics first
-sihanaka_demo <- read_excel("./DEMO Results_v2_DMS.xlsx",
+sihanaka_demo <- read_excel("C:/Users/au776065/Dropbox/Major-Smith-Purzycki Shared/GGSL Data/Madagascar - Lauridsen/Data/DEMO Results_v2_DMS.xlsx",
                           sheet = "Demographics")
 
 head(sihanaka_demo)
@@ -123,7 +124,7 @@ table(sihanaka_demo$FISHER)
 
 
 ## Read in the game data
-sihanaka_game <- read_excel("./EXPERIMENTS Results_v2_DMS.xlsx",
+sihanaka_game <- read_excel("C:/Users/au776065/Dropbox/Major-Smith-Purzycki Shared/GGSL Data/Madagascar - Lauridsen/Data/EXPERIMENTS Results_v2_DMS.xlsx",
                           sheet = "Data",
                           skip = 1)
 
@@ -173,7 +174,7 @@ sihanaka_game %>%
 
 
 ### Now for the religiosity interview data
-sihanaka_relig <- read_excel("./RELIGIOSITY Results_v2_DMS.xlsx",
+sihanaka_relig <- read_excel("C:/Users/au776065/Dropbox/Major-Smith-Purzycki Shared/GGSL Data/Madagascar - Lauridsen/Data/RELIGIOSITY Results_v2_DMS.xlsx",
                            sheet = "RELIGIOSITY", skip = 1)
 
 head(sihanaka_relig)
@@ -903,6 +904,7 @@ mod_RAG.LvsS <- brm(RAG | trials(30) ~ Cond + (Cond | CERCID),
 summary(mod_RAG.LvsS)
 
 ## Difference between conditions on count scale, using 'marginaleffects' package
+set.seed(4)
 avg_comparisons(mod_RAG.LvsS, variables = "Cond", type = "prediction")
 
 
@@ -983,6 +985,7 @@ mod_DG.LvsS <- brm(DG ~ Cond + (Cond | CERCID),
 summary(mod_DG.LvsS)
 
 ## Difference between conditions on count scale, using 'marginaleffects' package
+set.seed(44)
 avg_comparisons(mod_DG.LvsS, variables = "Cond", type = "prediction")
 
 
@@ -1041,6 +1044,7 @@ loo_compare(loo_RAG.L, loo_RAG.L_int)
 
 
 ## G-computation (based on additive model first)
+set.seed(121)
 
 # Predict outcome where all supernatural belief variables are '0'
 df_sup0 <- as.data.frame(cbind(LGPUNISH = 0, LGOMNI_AVE = 0,
@@ -1077,6 +1081,7 @@ quantile(RAG.L_1, c(0.025, 0.5, 0.975))
 
 
 ## G-computation (based on interaction model)
+set.seed(131)
 
 # Predict outcome where all supernatural belief variables are '0'
 df_sup0 <- as.data.frame(cbind(LGPUNISH = 0, LGOMNI_AVE = 0,
@@ -1156,6 +1161,7 @@ loo_compare(loo_RAG.S, loo_RAG.S_int)
 
 
 ## G-computation (based on additive model)
+set.seed(141)
 
 # Predict outcome where all supernatural belief variables are '0'
 df_sup0 <- as.data.frame(cbind(LGPUNISH = 0, LGOMNI_AVE = 0,
@@ -1258,6 +1264,7 @@ loo_compare(loo_DG.L, loo_DG.L_int)
 
 
 ## G-computation (based on additive model)
+set.seed(151) 
 
 # Predict outcome where all supernatural belief variables are '0'
 df_sup0 <- as.data.frame(cbind(LGPUNISH = 0, LGOMNI_AVE = 0,
@@ -1354,6 +1361,7 @@ loo_compare(mod_DG.S, mod_DG.S_int)
 
 
 ## G-computation (based on additive model)
+set.seed(161)
 
 # Predict outcome where all supernatural belief variables are '0'
 df_sup0 <- as.data.frame(cbind(LGPUNISH = 0, LGOMNI_AVE = 0,
@@ -1467,6 +1475,7 @@ summary(mod_RAG.L_sens1)
 
 
 ## G-computation
+set.seed(212)
 
 # Predict outcome where all supernatural belief variables are '0'
 df_sup0 <- as.data.frame(cbind(LGPUNISH = 0, LGOMNI_AVE = 0,
@@ -1516,6 +1525,7 @@ summary(mod_RAG.S_sens1)
 
 
 ## G-computation
+set.seed(222)
 
 # Predict outcome where all supernatural belief variables are '0'
 df_sup0 <- as.data.frame(cbind(LGPUNISH = 0, LGOMNI_AVE = 0,
@@ -1565,6 +1575,7 @@ summary(mod_DG.L_sens1)
 
 
 ## G-computation
+set.seed(232)
 
 # Predict outcome where all supernatural belief variables are '0'
 df_sup0 <- as.data.frame(cbind(LGPUNISH = 0, LGOMNI_AVE = 0,
@@ -1628,6 +1639,7 @@ summary(mod_DG.S_sens1)
 
 
 ## G-computation
+set.seed(242)
 
 # Predict outcome where all supernatural belief variables are '0'
 df_sup0 <- as.data.frame(cbind(LGPUNISH = 0, LGOMNI_AVE = 0,
@@ -2020,6 +2032,7 @@ mean(LOO_SE_diff)
 
 
 ## G-computation (based on additive model)
+set.seed(313)
 
 ### Will have to loop over each imputed dataset and store contrasts, then combine together afterwards
 
@@ -2074,6 +2087,7 @@ quantile(RAG.L_1, c(0.025, 0.5, 0.975))
 
 
 ## G-computation (based on interaction model)
+set.seed(323)
 
 ### Will have to loop over each imputed dataset and store contrasts, then combine together afterwards
 
@@ -2201,6 +2215,7 @@ mean(LOO_SE_diff)
 
 
 ## G-computation (based on additive model)
+set.seed(333)
 
 ### Will have to loop over each imputed dataset and store contrasts, then combine together afterwards
 
@@ -2349,6 +2364,7 @@ mean(LOO_SE_diff)
 
 
 ## G-computation (based on additive model)
+set.seed(353)
 
 ### Will have to loop over each imputed dataset and store contrasts, then combine together afterwards
 
@@ -2490,6 +2506,7 @@ mean(LOO_SE_diff)
 
 
 ## G-computation (based on additive model)
+set.seed(363)
 
 ### Will have to loop over each imputed dataset and store contrasts, then combine together afterwards
 
@@ -2599,6 +2616,7 @@ combine_models(mlist = mod_RAG.L_sens1, check_data = FALSE)
 
 
 ## G-computation
+set.seed(414)
 
 ### Will have to loop over each imputed dataset and store contrasts, then combine together afterwards
 
@@ -2671,6 +2689,7 @@ combine_models(mlist = mod_RAG.S_sens1, check_data = FALSE)
 
 
 ## G-computation
+set.seed(424)
 
 ### Will have to loop over each imputed dataset and store contrasts, then combine together afterwards
 
@@ -2716,7 +2735,7 @@ for (i in 1:nrow(sup0_all)) {
   diff_RAG.S_sens1[i] <- RAG.S_1_sens1[i] - RAG.S_0_sens1[i]
 }
 
-plot(density(diff_RAG.S_sens1), main = "Self RAG (Buddha)", xlab = "Marginal difference in cooperation to DISTANT")
+plot(density(diff_RAG.S_sens1), main = "Self RAG (fisher only)", xlab = "Marginal difference in cooperation to DISTANT")
 summary(diff_RAG.S_sens1)
 quantile(diff_RAG.S_sens1, c(0.025, 0.5, 0.975))
 
@@ -2743,6 +2762,7 @@ combine_models(mlist = mod_DG.L_sens1, check_data = FALSE)
 
 
 ## G-computation
+set.seed(434)
 
 ### Will have to loop over each imputed dataset and store contrasts, then combine together afterwards
 
@@ -2802,7 +2822,7 @@ for (i in 1:nrow(sup0_all)) {
   diff_DG.L_sens1[i] <- DG.L_1_sens1[i] - DG.L_0_sens1[i]
 }
 
-plot(density(diff_DG.L_sens1), main = "Local DG (Buddha)", xlab = "Marginal difference in cooperation to DISTANT")
+plot(density(diff_DG.L_sens1), main = "Local DG (fisher only)", xlab = "Marginal difference in cooperation to DISTANT")
 summary(diff_DG.L_sens1)
 quantile(diff_DG.L_sens1, c(0.025, 0.5, 0.975))
 
@@ -2829,6 +2849,7 @@ combine_models(mlist = mod_DG.S_sens1, check_data = FALSE)
 
 
 ## G-computation
+set.seed(444)
 
 ### Will have to loop over each imputed dataset and store contrasts, then combine together afterwards
 
@@ -2888,7 +2909,7 @@ for (i in 1:nrow(sup0_all)) {
   diff_DG.S_sens1[i] <- DG.S_1_sens1[i] - DG.S_0_sens1[i]
 }
 
-plot(density(diff_DG.S_sens1), main = "Self DG (Buddha)", xlab = "Marginal difference in cooperation to DISTANT")
+plot(density(diff_DG.S_sens1), main = "Self DG (fisher only)", xlab = "Marginal difference in cooperation to DISTANT")
 summary(diff_DG.S_sens1)
 quantile(diff_DG.S_sens1, c(0.025, 0.5, 0.975))
 
